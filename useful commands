@@ -1,0 +1,14 @@
+Python commands
+-for showing all columns of data frame: 
+pd.set_option('display.max_columns', None) 
+
+
+
+WHEN REGEXP_CONTAINS(UPPER(RESOLUTION_CATEGORY_TIER_1),r'REMOTE CLOSE|NO FAULT|NO ACTION|SELF-CLEARED|NO ISSUE|AUTO RESTORED') THEN "NFVR" 
+
+Select * from `TABLE`
+qualify row_number() over (partition by Incident_ID, date(Incident_Last_Resolved_Date_Time) order by date(Incident_Last_Resolved_Date_Time))=1
+DATE(TIMESTAMP(DATETIME(FIRSTOCCURRENCE, 'Europe/Amsterdam'))) 
+
+
+
